@@ -17,3 +17,19 @@ a:hover {
 a::after {
   content: "🧔🏿‍♂️";
 }
+ul > li {
+  font-weight: bold;
+}
+ul li:hover {
+  background-color: #5188e1;
+}
+ul li:nth-child(3) {
+  color: #3e87d0;
+}
+ul li::before {
+  content: "🫰🏿";
+}
+p::first-letter {
+  font-size: 200%;
+  color: cornflowerblue;
+}
